@@ -16,5 +16,5 @@
     "skipLibCheck": true,
     "types": ["unplugin-vue-define-options/macros-global" /* ... */]
   },
-  "include": ["core", "vite-env.d.ts", "vite.config.ts"]
+  "include": ["core", "vite-env.d.ts", "vite.config.ts", "kunlun-design-icons"]
 }

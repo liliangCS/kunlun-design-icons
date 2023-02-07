@@ -22,6 +22,7 @@ import ArrowOutlineArrow3 from "./icon-vue/ArrowOutlineArrow3.vue"
 import ArrowShouqi from "./icon-vue/ArrowShouqi.vue"
 import ArrowUpload from "./icon-vue/ArrowUpload.vue"
 import ArrowZhankai from "./icon-vue/ArrowZhankai.vue"
+import TestVite from "./icon-vue/TestVite.vue"
 export const KlArrowArrowDoubleLeft = installer(ArrowArrowDoubleLeft)
 export const KlArrowArrowDoubleRight = installer(ArrowArrowDoubleRight)
 export const KlArrowArrowGoForward = installer(ArrowArrowGoForward)
@@ -44,3 +45,4 @@ export const KlArrowOutlineArrow3 = installer(ArrowOutlineArrow3)
 export const KlArrowShouqi = installer(ArrowShouqi)
 export const KlArrowUpload = installer(ArrowUpload)
 export const KlArrowZhankai = installer(ArrowZhankai)
+export const KlTestVite = installer(TestVite)

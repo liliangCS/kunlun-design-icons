@@ -2,15 +2,23 @@
   "name": "kl-icons",
   "private": false,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "compile": "pnpm --filter core compile",
     "build": "vite build",
     "demo:dev": "pnpm --filter demo dev"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
   "devDependencies": {
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
     "@vitejs/plugin-vue": "^4.0.0",
+    "cz-customizable": "6.3.0",
     "fast-glob": "^3.2.12",
+    "husky": "7.0.1",
     "prettier": "^2.8.3",
     "typescript": "^4.9.3",
     "unplugin-vue-define-options": "^1.2.0",
