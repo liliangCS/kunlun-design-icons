@@ -5,7 +5,8 @@
   "scripts": {
     "compile": "pnpm --filter core compile",
     "build": "vite build",
-    "demo:dev": "pnpm --filter demo dev"
+    "demo:dev": "pnpm --filter demo dev",
+    "commit": "git cz"
   },
   "config": {
     "commitizen": {
