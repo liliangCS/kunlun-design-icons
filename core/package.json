@@ -1,0 +1,13 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "compile": "node compiler.js && prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

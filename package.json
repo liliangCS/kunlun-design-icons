@@ -1,0 +1,23 @@
+{
+  "name": "kl-icons",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "pnpm --filter core compile",
+    "build": "vite build",
+    "demo:dev": "pnpm --filter demo dev"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "fast-glob": "^3.2.12",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.3",
+    "unplugin-vue-define-options": "^1.2.0",
+    "vite": "^4.1.0",
+    "vite-plugin-svg-icons": "^2.0.1"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  }
+}
