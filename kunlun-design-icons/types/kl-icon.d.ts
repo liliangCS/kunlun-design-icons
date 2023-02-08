@@ -1,6 +1,6 @@
-import type { DefineComponent } from "vue"
+import type { DefineComponent, App } from "vue"
 
-type KlIconCpnType = DefineComponent<
+type DefaultCpnType = DefineComponent<
   {},
   {},
   {},
@@ -16,4 +16,9 @@ type KlIconCpnType = DefineComponent<
   Readonly<import("vue").ExtractPropTypes<{}>>,
   {}
 >
+
+interface KlIconCpnType extends DefaultCpnType {
+  install: (app: App<any>) => void
+}
+
 export default KlIconCpnType
