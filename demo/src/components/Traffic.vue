@@ -1,0 +1,21 @@
+<template>
+  <div class="traffic">
+    <h1>Traffic</h1>
+    <KlTrafficAnchor></KlTrafficAnchor>
+    <KlTrafficEBike></KlTrafficEBike>
+    <KlTrafficGasStation></KlTrafficGasStation>
+    <KlTrafficMapPin></KlTrafficMapPin>
+    <KlTrafficNavigation></KlTrafficNavigation>
+    <KlTrafficPinDistance></KlTrafficPinDistance>
+    <KlTrafficPushpin></KlTrafficPushpin>
+    <KlTrafficRailway></KlTrafficRailway>
+    <KlTrafficRiding></KlTrafficRiding>
+    <KlTrafficRocket></KlTrafficRocket>
+    <KlTrafficRun></KlTrafficRun>
+    <KlTrafficShip></KlTrafficShip>
+    <KlTrafficSubway></KlTrafficSubway>
+    <KlTrafficTaxi></KlTrafficTaxi>
+    <KlTrafficTrafficLight></KlTrafficTrafficLight>
+    <KlTrafficTruck></KlTrafficTruck>
+  </div>
+</template>

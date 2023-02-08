@@ -1,0 +1,22 @@
+<template>
+  <div class="food">
+    <h1>Food</h1>
+    <KlFoodBag></KlFoodBag>
+    <KlFoodBeer></KlFoodBeer>
+    <KlFoodCake></KlFoodCake>
+    <KlFoodCoffee></KlFoodCoffee>
+    <KlFoodCrab></KlFoodCrab>
+    <KlFoodDrinks></KlFoodDrinks>
+    <KlFoodDrumsticks></KlFoodDrumsticks>
+    <KlFoodFish></KlFoodFish>
+    <KlFoodFrenchfries></KlFoodFrenchfries>
+    <KlFoodHamburger></KlFoodHamburger>
+    <KlFoodMilkTea></KlFoodMilkTea>
+    <KlFoodNoodle></KlFoodNoodle>
+    <KlFoodPizza></KlFoodPizza>
+    <KlFoodPopsicle></KlFoodPopsicle>
+    <KlFoodPot></KlFoodPot>
+    <KlFoodRation></KlFoodRation>
+    <KlFoodShrimp></KlFoodShrimp>
+  </div>
+</template>

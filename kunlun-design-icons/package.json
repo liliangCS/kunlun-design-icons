@@ -1,0 +1,31 @@
+{
+  "name": "@kl-design/icons",
+  "version": "1.0.4",
+  "description": "",
+  "main": "./lib/kl-icon.mjs",
+  "files": [
+    "lib",
+    "types",
+    "package.json"
+  ],
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/kl-icon.mjs",
+      "require": "./lib/kl-icon.umd.js"
+    },
+    "./style.css": "./lib/style.css"
+  },
+  "keywords": [
+    "@kunlun-design/icons",
+    "kunlun-design",
+    "kl-icons"
+  ],
+  "author": "liliangCS",
+  "license": "ISC",
+  "homepage": "https://anixuil.github.io/zh/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liliangCS/kunlun-design-icons"
+  }
+}

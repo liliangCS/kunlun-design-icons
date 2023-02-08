@@ -1,0 +1,36 @@
+<template>
+  <div class="media">
+    <h1>Media</h1>
+    <KlMediaCameraFill></KlMediaCameraFill>
+    <KlMediaCameraLine></KlMediaCameraLine>
+    <KlMediaDiscFill></KlMediaDiscFill>
+    <KlMediaDiscLine></KlMediaDiscLine>
+    <KlMediaImageFill></KlMediaImageFill>
+    <KlMediaImageLine></KlMediaImageLine>
+    <KlMediaMicFill></KlMediaMicFill>
+    <KlMediaMicLine></KlMediaMicLine>
+    <KlMediaMicOffFill></KlMediaMicOffFill>
+    <KlMediaMicOffLine></KlMediaMicOffLine>
+    <KlMediaMovieFill></KlMediaMovieFill>
+    <KlMediaMovieLine></KlMediaMovieLine>
+    <KlMediaPause></KlMediaPause>
+    <KlMediaPlayListFill></KlMediaPlayListFill>
+    <KlMediaPlayListLine></KlMediaPlayListLine>
+    <KlMediaPlay></KlMediaPlay>
+    <KlMediaRepeatOne></KlMediaRepeatOne>
+    <KlMediaRepeat></KlMediaRepeat>
+    <KlMediaShuffle></KlMediaShuffle>
+    <KlMediaSkipBackFill></KlMediaSkipBackFill>
+    <KlMediaSkipBackLine></KlMediaSkipBackLine>
+    <KlMediaSkipForwardFill></KlMediaSkipForwardFill>
+    <KlMediaSkipForwardLine></KlMediaSkipForwardLine>
+    <KlMediaVideoFill></KlMediaVideoFill>
+    <KlMediaVideoLine></KlMediaVideoLine>
+    <KlMediaVidiconFill></KlMediaVidiconFill>
+    <KlMediaVidiconLine></KlMediaVidiconLine>
+    <KlMediaVolumeMuteFill></KlMediaVolumeMuteFill>
+    <KlMediaVolumeMuteLine></KlMediaVolumeMuteLine>
+    <KlMediaVolumeUpFill></KlMediaVolumeUpFill>
+    <KlMediaVolumeUpLine></KlMediaVolumeUpLine>
+  </div>
+</template>

@@ -1,25 +1,25 @@
 <template>
   <div class="arrow">
     <h1>Arrow</h1>
-    <KlArrowBottomIcon></KlArrowBottomIcon>
-    <KlArrowCircleBottomIcon></KlArrowCircleBottomIcon>
-    <KlArrowCircleLeftIcon></KlArrowCircleLeftIcon>
-    <KlArrowCircleRightIcon></KlArrowCircleRightIcon>
-    <KlArrowCircleTopIcon></KlArrowCircleTopIcon>
-    <KlArrowDoubleLeftIcon></KlArrowDoubleLeftIcon>
-    <KlArrowDoubleRightIcon></KlArrowDoubleRightIcon>
-    <KlArrowGoBackIcon></KlArrowGoBackIcon>
-    <KlArrowGrowIcon></KlArrowGrowIcon>
-    <KlArrowLeftIcon></KlArrowLeftIcon>
-    <KlArrowLineLeftIcon></KlArrowLineLeftIcon>
-    <KlArrowLineRightIcon></KlArrowLineRightIcon>
-    <KlArrowOutlineHorizontalIcon></KlArrowOutlineHorizontalIcon>
-    <KlArrowOutlineVerticalIcon></KlArrowOutlineVerticalIcon>
-    <KlArrowRankIcon></KlArrowRankIcon>
-    <KlArrowRightIcon></KlArrowRightIcon>
-    <KlArrowScreenFullIcon></KlArrowScreenFullIcon>
-    <KlArrowScreenMiniIcon></KlArrowScreenMiniIcon>
-    <KlArrowShrinkIcon></KlArrowShrinkIcon>
-    <KlArrowTopIcon></KlArrowTopIcon>
+    <KlArrowBottom></KlArrowBottom>
+    <KlArrowCircleBottom></KlArrowCircleBottom>
+    <KlArrowCircleLeft></KlArrowCircleLeft>
+    <KlArrowCircleRight></KlArrowCircleRight>
+    <KlArrowCircleTop></KlArrowCircleTop>
+    <KlArrowDoubleLeft></KlArrowDoubleLeft>
+    <KlArrowDoubleRight></KlArrowDoubleRight>
+    <KlArrowGoBack></KlArrowGoBack>
+    <KlArrowGrow></KlArrowGrow>
+    <KlArrowLeft></KlArrowLeft>
+    <KlArrowLineLeft></KlArrowLineLeft>
+    <KlArrowLineRight></KlArrowLineRight>
+    <KlArrowOutlineHorizontal></KlArrowOutlineHorizontal>
+    <KlArrowOutlineVertical></KlArrowOutlineVertical>
+    <KlArrowRank></KlArrowRank>
+    <KlArrowRight></KlArrowRight>
+    <KlArrowScreenFull></KlArrowScreenFull>
+    <KlArrowScreenMini></KlArrowScreenMini>
+    <KlArrowShrink></KlArrowShrink>
+    <KlArrowTop></KlArrowTop>
   </div>
 </template>

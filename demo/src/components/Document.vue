@@ -1,5 +1,35 @@
 <template>
   <div class="document">
     <h1>Document</h1>
+    <KlDocumentArticleFill></KlDocumentArticleFill>
+    <KlDocumentArticleLine></KlDocumentArticleLine>
+    <KlDocumentBillFill></KlDocumentBillFill>
+    <KlDocumentBillLine></KlDocumentBillLine>
+    <KlDocumentBookFill></KlDocumentBookFill>
+    <KlDocumentBookLine></KlDocumentBookLine>
+    <KlDocumentFileAddFill></KlDocumentFileAddFill>
+    <KlDocumentFileAddLine></KlDocumentFileAddLine>
+    <KlDocumentFileCodeFill></KlDocumentFileCodeFill>
+    <KlDocumentFileCodeLine></KlDocumentFileCodeLine>
+    <KlDocumentFileCopyFill></KlDocumentFileCopyFill>
+    <KlDocumentFileCopyLine></KlDocumentFileCopyLine>
+    <KlDocumentFileFill></KlDocumentFileFill>
+    <KlDocumentFileLine></KlDocumentFileLine>
+    <KlDocumentFileListFill></KlDocumentFileListFill>
+    <KlDocumentFileListLine></KlDocumentFileListLine>
+    <KlDocumentFileListReelFill></KlDocumentFileListReelFill>
+    <KlDocumentFileListReelLine></KlDocumentFileListReelLine>
+    <KlDocumentFilePaperFill></KlDocumentFilePaperFill>
+    <KlDocumentFilePaperLine></KlDocumentFilePaperLine>
+    <KlDocumentFileUserFill></KlDocumentFileUserFill>
+    <KlDocumentFileUserLine></KlDocumentFileUserLine>
+    <KlDocumentFileZipFill></KlDocumentFileZipFill>
+    <KlDocumentFileZipLine></KlDocumentFileZipLine>
+    <KlDocumentFolderAddFill></KlDocumentFolderAddFill>
+    <KlDocumentFolderAddLine></KlDocumentFolderAddLine>
+    <KlDocumentFolderFill></KlDocumentFolderFill>
+    <KlDocumentFolderLine></KlDocumentFolderLine>
+    <KlDocumentNumbersFill></KlDocumentNumbersFill>
+    <KlDocumentNumbersLine></KlDocumentNumbersLine>
   </div>
 </template>

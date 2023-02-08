@@ -1,0 +1,22 @@
+<template>
+  <div class="weather">
+    <h1>Weather</h1>
+    <KlWeatherClearOvercastDaytime></KlWeatherClearOvercastDaytime>
+    <KlWeatherClearOvercastNightRain></KlWeatherClearOvercastNightRain>
+    <KlWeatherClearOvercastNight></KlWeatherClearOvercastNight>
+    <KlWeatherDaytimeFill></KlWeatherDaytimeFill>
+    <KlWeatherDaytimeLine></KlWeatherDaytimeLine>
+    <KlWeatherFog></KlWeatherFog>
+    <KlWeatherGale></KlWeatherGale>
+    <KlWeatherHailstone></KlWeatherHailstone>
+    <KlWeatherHeavyRain></KlWeatherHeavyRain>
+    <KlWeatherLightRain></KlWeatherLightRain>
+    <KlWeatherNightFill></KlWeatherNightFill>
+    <KlWeatherNightLine></KlWeatherNightLine>
+    <KlWeatherOvercast></KlWeatherOvercast>
+    <KlWeatherSleet></KlWeatherSleet>
+    <KlWeatherSnowflake></KlWeatherSnowflake>
+    <KlWeatherSnowstorm></KlWeatherSnowstorm>
+    <KlWeatherThundershower></KlWeatherThundershower>
+  </div>
+</template>

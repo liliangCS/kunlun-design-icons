@@ -1,0 +1,27 @@
+<template>
+  <div class="logo">
+    <h1>Logo</h1>
+    <KlLogoAlipay></KlLogoAlipay>
+    <KlLogoAndroid></KlLogoAndroid>
+    <KlLogoAngularjs></KlLogoAngularjs>
+    <KlLogoApple></KlLogoApple>
+    <KlLogoBaidu></KlLogoBaidu>
+    <KlLogoBilibili></KlLogoBilibili>
+    <KlLogoChrome></KlLogoChrome>
+    <KlLogoDingding></KlLogoDingding>
+    <KlLogoDropbox></KlLogoDropbox>
+    <KlLogoEdge></KlLogoEdge>
+    <KlLogoFirefox></KlLogoFirefox>
+    <KlLogoGithub></KlLogoGithub>
+    <KlLogoGitlab></KlLogoGitlab>
+    <KlLogoIe></KlLogoIe>
+    <KlLogoQq></KlLogoQq>
+    <KlLogoReactjs></KlLogoReactjs>
+    <KlLogoStackOverflow></KlLogoStackOverflow>
+    <KlLogoTwitter></KlLogoTwitter>
+    <KlLogoVuejs></KlLogoVuejs>
+    <KlLogoWeibo></KlLogoWeibo>
+    <KlLogoWindows></KlLogoWindows>
+    <KlLogoYoutube></KlLogoYoutube>
+  </div>
+</template>

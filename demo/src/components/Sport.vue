@@ -1,0 +1,19 @@
+<template>
+  <div class="sport">
+    <h1>Sport</h1>
+    <KlSportBadminton></KlSportBadminton>
+    <KlSportBaseballBat></KlSportBaseballBat>
+    <KlSportBasketball></KlSportBasketball>
+    <KlSportFootball></KlSportFootball>
+    <KlSportScoreboard></KlSportScoreboard>
+    <KlSportSneaker></KlSportSneaker>
+    <KlSportSpinning></KlSportSpinning>
+    <KlSportStockings></KlSportStockings>
+    <KlSportSwimRing></KlSportSwimRing>
+    <KlSportTennisRacket></KlSportTennisRacket>
+    <KlSportTennis></KlSportTennis>
+    <KlSportVolleyball></KlSportVolleyball>
+    <KlSportWeighingScale></KlSportWeighingScale>
+    <KlSportWhistle></KlSportWhistle>
+  </div>
+</template>
