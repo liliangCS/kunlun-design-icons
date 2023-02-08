@@ -1,48 +1,96 @@
 import "virtual:svg-icons-register"
 import installer from "../utils/installer"
-import ArrowArrowDoubleLeft from "./icon-vue/ArrowArrowDoubleLeft.vue"
-import ArrowArrowDoubleRight from "./icon-vue/ArrowArrowDoubleRight.vue"
-import ArrowArrowGoForward from "./icon-vue/ArrowArrowGoForward.vue"
-import ArrowArrowLeftSLine from "./icon-vue/ArrowArrowLeftSLine.vue"
-import ArrowArrowOD from "./icon-vue/ArrowArrowOD.vue"
-import ArrowArrowOL from "./icon-vue/ArrowArrowOL.vue"
-import ArrowArrowOR from "./icon-vue/ArrowArrowOR.vue"
-import ArrowArrowOU from "./icon-vue/ArrowArrowOU.vue"
-import ArrowArrowRightSLine from "./icon-vue/ArrowArrowRightSLine.vue"
-import ArrowArrow from "./icon-vue/ArrowArrow.vue"
-import ArrowArrowdown from "./icon-vue/ArrowArrowdown.vue"
-import ArrowArrowfull from "./icon-vue/ArrowArrowfull.vue"
-import ArrowArrowleft from "./icon-vue/ArrowArrowleft.vue"
-import ArrowArrowright from "./icon-vue/ArrowArrowright.vue"
-import ArrowArrowup from "./icon-vue/ArrowArrowup.vue"
-import ArrowLoad from "./icon-vue/ArrowLoad.vue"
-import ArrowNarrow from "./icon-vue/ArrowNarrow.vue"
-import ArrowOutlineArrow2 from "./icon-vue/ArrowOutlineArrow2.vue"
-import ArrowOutlineArrow3 from "./icon-vue/ArrowOutlineArrow3.vue"
-import ArrowShouqi from "./icon-vue/ArrowShouqi.vue"
-import ArrowUpload from "./icon-vue/ArrowUpload.vue"
-import ArrowZhankai from "./icon-vue/ArrowZhankai.vue"
-import TestVite from "./icon-vue/TestVite.vue"
-export const KlArrowArrowDoubleLeft = installer(ArrowArrowDoubleLeft)
-export const KlArrowArrowDoubleRight = installer(ArrowArrowDoubleRight)
-export const KlArrowArrowGoForward = installer(ArrowArrowGoForward)
-export const KlArrowArrowLeftSLine = installer(ArrowArrowLeftSLine)
-export const KlArrowArrowOD = installer(ArrowArrowOD)
-export const KlArrowArrowOL = installer(ArrowArrowOL)
-export const KlArrowArrowOR = installer(ArrowArrowOR)
-export const KlArrowArrowOU = installer(ArrowArrowOU)
-export const KlArrowArrowRightSLine = installer(ArrowArrowRightSLine)
-export const KlArrowArrow = installer(ArrowArrow)
-export const KlArrowArrowdown = installer(ArrowArrowdown)
-export const KlArrowArrowfull = installer(ArrowArrowfull)
-export const KlArrowArrowleft = installer(ArrowArrowleft)
-export const KlArrowArrowright = installer(ArrowArrowright)
-export const KlArrowArrowup = installer(ArrowArrowup)
-export const KlArrowLoad = installer(ArrowLoad)
-export const KlArrowNarrow = installer(ArrowNarrow)
-export const KlArrowOutlineArrow2 = installer(ArrowOutlineArrow2)
-export const KlArrowOutlineArrow3 = installer(ArrowOutlineArrow3)
-export const KlArrowShouqi = installer(ArrowShouqi)
-export const KlArrowUpload = installer(ArrowUpload)
-export const KlArrowZhankai = installer(ArrowZhankai)
-export const KlTestVite = installer(TestVite)
+import ArrowBottomIcon from "./icon-vue/ArrowBottomIcon.vue"
+import ArrowCircleBottomIcon from "./icon-vue/ArrowCircleBottomIcon.vue"
+import ArrowCircleLeftIcon from "./icon-vue/ArrowCircleLeftIcon.vue"
+import ArrowCircleRightIcon from "./icon-vue/ArrowCircleRightIcon.vue"
+import ArrowCircleTopIcon from "./icon-vue/ArrowCircleTopIcon.vue"
+import ArrowDoubleLeftIcon from "./icon-vue/ArrowDoubleLeftIcon.vue"
+import ArrowDoubleRightIcon from "./icon-vue/ArrowDoubleRightIcon.vue"
+import ArrowGoBackIcon from "./icon-vue/ArrowGoBackIcon.vue"
+import ArrowGrowIcon from "./icon-vue/ArrowGrowIcon.vue"
+import ArrowLeftIcon from "./icon-vue/ArrowLeftIcon.vue"
+import ArrowLineLeftIcon from "./icon-vue/ArrowLineLeftIcon.vue"
+import ArrowLineRightIcon from "./icon-vue/ArrowLineRightIcon.vue"
+import ArrowOutlineHorizontalIcon from "./icon-vue/ArrowOutlineHorizontalIcon.vue"
+import ArrowOutlineVerticalIcon from "./icon-vue/ArrowOutlineVerticalIcon.vue"
+import ArrowRankIcon from "./icon-vue/ArrowRankIcon.vue"
+import ArrowRightIcon from "./icon-vue/ArrowRightIcon.vue"
+import ArrowScreenFullIcon from "./icon-vue/ArrowScreenFullIcon.vue"
+import ArrowScreenMiniIcon from "./icon-vue/ArrowScreenMiniIcon.vue"
+import ArrowShrinkIcon from "./icon-vue/ArrowShrinkIcon.vue"
+import ArrowTopIcon from "./icon-vue/ArrowTopIcon.vue"
+import SystemAddIcon from "./icon-vue/SystemAddIcon.vue"
+import SystemAdminIcon from "./icon-vue/SystemAdminIcon.vue"
+import SystemCalendarIcon from "./icon-vue/SystemCalendarIcon.vue"
+import SystemDeleteIcon from "./icon-vue/SystemDeleteIcon.vue"
+import SystemEditIcon from "./icon-vue/SystemEditIcon.vue"
+import SystemExitIcon from "./icon-vue/SystemExitIcon.vue"
+import SystemEyeCloseIcon from "./icon-vue/SystemEyeCloseIcon.vue"
+import SystemEyeOpenIcon from "./icon-vue/SystemEyeOpenIcon.vue"
+import SystemFolderIcon from "./icon-vue/SystemFolderIcon.vue"
+import SystemGoBackIcon from "./icon-vue/SystemGoBackIcon.vue"
+import SystemHeartIcon from "./icon-vue/SystemHeartIcon.vue"
+import SystemHintIcon from "./icon-vue/SystemHintIcon.vue"
+import SystemHomeIcon from "./icon-vue/SystemHomeIcon.vue"
+import SystemListIcon from "./icon-vue/SystemListIcon.vue"
+import SystemLoadIcon from "./icon-vue/SystemLoadIcon.vue"
+import SystemLockIcon from "./icon-vue/SystemLockIcon.vue"
+import SystemLoginIcon from "./icon-vue/SystemLoginIcon.vue"
+import SystemMessageIcon from "./icon-vue/SystemMessageIcon.vue"
+import SystemMoreIcon from "./icon-vue/SystemMoreIcon.vue"
+import SystemPullDownIcon from "./icon-vue/SystemPullDownIcon.vue"
+import SystemRefreshIcon from "./icon-vue/SystemRefreshIcon.vue"
+import SystemSearchIcon from "./icon-vue/SystemSearchIcon.vue"
+import SystemSettingIcon from "./icon-vue/SystemSettingIcon.vue"
+import SystemStartIcon from "./icon-vue/SystemStartIcon.vue"
+import SystemSuccessIcon from "./icon-vue/SystemSuccessIcon.vue"
+import SystemUploadIcon from "./icon-vue/SystemUploadIcon.vue"
+import SystemWorkbenchIcon from "./icon-vue/SystemWorkbenchIcon.vue"
+export const KlArrowBottomIcon = installer(ArrowBottomIcon)
+export const KlArrowCircleBottomIcon = installer(ArrowCircleBottomIcon)
+export const KlArrowCircleLeftIcon = installer(ArrowCircleLeftIcon)
+export const KlArrowCircleRightIcon = installer(ArrowCircleRightIcon)
+export const KlArrowCircleTopIcon = installer(ArrowCircleTopIcon)
+export const KlArrowDoubleLeftIcon = installer(ArrowDoubleLeftIcon)
+export const KlArrowDoubleRightIcon = installer(ArrowDoubleRightIcon)
+export const KlArrowGoBackIcon = installer(ArrowGoBackIcon)
+export const KlArrowGrowIcon = installer(ArrowGrowIcon)
+export const KlArrowLeftIcon = installer(ArrowLeftIcon)
+export const KlArrowLineLeftIcon = installer(ArrowLineLeftIcon)
+export const KlArrowLineRightIcon = installer(ArrowLineRightIcon)
+export const KlArrowOutlineHorizontalIcon = installer(ArrowOutlineHorizontalIcon)
+export const KlArrowOutlineVerticalIcon = installer(ArrowOutlineVerticalIcon)
+export const KlArrowRankIcon = installer(ArrowRankIcon)
+export const KlArrowRightIcon = installer(ArrowRightIcon)
+export const KlArrowScreenFullIcon = installer(ArrowScreenFullIcon)
+export const KlArrowScreenMiniIcon = installer(ArrowScreenMiniIcon)
+export const KlArrowShrinkIcon = installer(ArrowShrinkIcon)
+export const KlArrowTopIcon = installer(ArrowTopIcon)
+export const KlSystemAddIcon = installer(SystemAddIcon)
+export const KlSystemAdminIcon = installer(SystemAdminIcon)
+export const KlSystemCalendarIcon = installer(SystemCalendarIcon)
+export const KlSystemDeleteIcon = installer(SystemDeleteIcon)
+export const KlSystemEditIcon = installer(SystemEditIcon)
+export const KlSystemExitIcon = installer(SystemExitIcon)
+export const KlSystemEyeCloseIcon = installer(SystemEyeCloseIcon)
+export const KlSystemEyeOpenIcon = installer(SystemEyeOpenIcon)
+export const KlSystemFolderIcon = installer(SystemFolderIcon)
+export const KlSystemGoBackIcon = installer(SystemGoBackIcon)
+export const KlSystemHeartIcon = installer(SystemHeartIcon)
+export const KlSystemHintIcon = installer(SystemHintIcon)
+export const KlSystemHomeIcon = installer(SystemHomeIcon)
+export const KlSystemListIcon = installer(SystemListIcon)
+export const KlSystemLoadIcon = installer(SystemLoadIcon)
+export const KlSystemLockIcon = installer(SystemLockIcon)
+export const KlSystemLoginIcon = installer(SystemLoginIcon)
+export const KlSystemMessageIcon = installer(SystemMessageIcon)
+export const KlSystemMoreIcon = installer(SystemMoreIcon)
+export const KlSystemPullDownIcon = installer(SystemPullDownIcon)
+export const KlSystemRefreshIcon = installer(SystemRefreshIcon)
+export const KlSystemSearchIcon = installer(SystemSearchIcon)
+export const KlSystemSettingIcon = installer(SystemSettingIcon)
+export const KlSystemStartIcon = installer(SystemStartIcon)
+export const KlSystemSuccessIcon = installer(SystemSuccessIcon)
+export const KlSystemUploadIcon = installer(SystemUploadIcon)
+export const KlSystemWorkbenchIcon = installer(SystemWorkbenchIcon)

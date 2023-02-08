@@ -3,10 +3,13 @@
   "private": false,
   "version": "0.0.0",
   "scripts": {
-    "compile": "pnpm --filter core compile",
+    "compile": "pnpm --filter core compile && prettier --write kunlun-design-icons/types/index.d.ts",
     "build": "vite build",
+    "cb": "pnpm compile && pnpm build",
     "demo:dev": "pnpm --filter demo dev",
-    "commit": "git cz"
+    "commit": "git cz",
+    "njs": "npm config set registry https://registry.npmjs.org/",
+    "ntao": "npm config set registry https://registry.npm.taobao.org/"
   },
   "config": {
     "commitizen": {

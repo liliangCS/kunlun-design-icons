@@ -1,4 +1,4 @@
-import { writeFileSync, readdirSync } from "fs"
+import { writeFileSync, readdirSync, unlinkSync } from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
 
@@ -15,6 +15,20 @@ function kebab2Pascal(text) {
     }
   }
   return words.join("")
+}
+
+// 清空vue文件
+const cleanIconVue = () => {
+  const dirs = readdirSync(path.resolve(__dirname, "./icon-vue"))
+  try {
+    dirs.forEach((dir) => {
+      const filePath = path.resolve(__dirname, `./icon-vue/${dir}`)
+      unlinkSync(filePath)
+    })
+    console.log("清除vue文件成功")
+  } catch (error) {
+    console.log("清除vue文件失败")
+  }
 }
 
 // 读取svg目录结构
@@ -68,18 +82,21 @@ defineOptions({
 </script>`
 }
 
-// 创建组件
+// 构建组件及声明文件
 const createCpn = () => {
   const cpns = createCpnData()
   let importStr = ""
   let exportStr = ""
+  let declareStr = ""
   try {
     cpns.forEach((cpn) => {
       const { svgType, svgName, cpnName } = cpn
+      console.log(`Kl${cpnName}`)
       const template = createCpnTemplate(svgType, svgName, cpnName)
       writeFileSync(path.resolve(__dirname, `./icon-vue/${cpnName}.vue`), template)
       importStr += createImportTemplate(cpnName)
       exportStr += createExportTemplate(cpnName)
+      declareStr += createDeclareTemplate(cpnName)
     })
     writeFileSync(
       path.resolve(__dirname, "./index.ts"),
@@ -89,6 +106,13 @@ const createCpn = () => {
       flag: "a+"
     })
     writeFileSync(path.resolve(__dirname, "./index.ts"), exportStr, {
+      flag: "a+"
+    })
+    writeFileSync(
+      path.resolve(__dirname, "../kunlun-design-icons/types/index.d.ts"),
+      "import type KlIconCpnType from './kl-icon'\n"
+    )
+    writeFileSync(path.resolve(__dirname, "../kunlun-design-icons/types/index.d.ts"), declareStr, {
       flag: "a+"
     })
     console.log("构建成功")
@@ -106,4 +130,15 @@ const createImportTemplate = (cpnName) => {
 const createExportTemplate = (cpnName) => {
   return `export const Kl${cpnName} = installer(${cpnName});\n`
 }
-createCpn()
+
+// 声明文件模板
+const createDeclareTemplate = (cpnName) => {
+  return `export declare const Kl${cpnName}: KlIconCpnType;\n`
+}
+
+// 入口函数
+const main = () => {
+  cleanIconVue()
+  createCpn()
+}
+main()

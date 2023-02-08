@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kl-design/icons": "workspace:^1.0.2",
+    "@kl-design/icons": "workspace:^1.0.3",
     "vue": "^3.2.45"
   },
   "devDependencies": {

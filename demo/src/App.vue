@@ -1,14 +1,16 @@
 <template>
   <div class="demo">
-    <h1>111</h1>
-    <KlArrowArrow></KlArrowArrow>
-    <!-- <KlArrowArrow></KlArrowArrow>
-    <KlArrowArrowDoubleLeft color="red" size="50"></KlArrowArrowDoubleLeft>
-    <KlTestVite color="red" size="100"></KlTestVite> -->
+    <!-- System图标 -->
+    <System></System>
+    <!-- Arrow图标 -->
+    <Arrow></Arrow>
+    <!-- Document图标 -->
+    <Document></Document>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { KlArrowArrow } from "@kl-design/icons"
-import "@kl-design/icons/style.css"
+import System from "./components/System.vue"
+import Arrow from "./components/Arrow.vue"
+import Document from "./components/Document.vue"
 </script>

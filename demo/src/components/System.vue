@@ -1,0 +1,32 @@
+<template>
+  <div class="system">
+    <h1>System</h1>
+    <KlSystemAddIcon></KlSystemAddIcon>
+    <KlSystemAdminIcon></KlSystemAdminIcon>
+    <KlSystemCalendarIcon></KlSystemCalendarIcon>
+    <KlSystemDeleteIcon></KlSystemDeleteIcon>
+    <KlSystemEditIcon></KlSystemEditIcon>
+    <KlSystemExitIcon></KlSystemExitIcon>
+    <KlSystemEyeCloseIcon></KlSystemEyeCloseIcon>
+    <KlSystemEyeOpenIcon></KlSystemEyeOpenIcon>
+    <KlSystemFolderIcon></KlSystemFolderIcon>
+    <KlSystemGoBackIcon></KlSystemGoBackIcon>
+    <KlSystemHeartIcon></KlSystemHeartIcon>
+    <KlSystemHintIcon></KlSystemHintIcon>
+    <KlSystemHomeIcon></KlSystemHomeIcon>
+    <KlSystemListIcon></KlSystemListIcon>
+    <KlSystemLoadIcon></KlSystemLoadIcon>
+    <KlSystemLockIcon></KlSystemLockIcon>
+    <KlSystemLoginIcon></KlSystemLoginIcon>
+    <KlSystemMessageIcon></KlSystemMessageIcon>
+    <KlSystemMoreIcon></KlSystemMoreIcon>
+    <KlSystemPullDownIcon></KlSystemPullDownIcon>
+    <KlSystemRefreshIcon></KlSystemRefreshIcon>
+    <KlSystemSearchIcon></KlSystemSearchIcon>
+    <KlSystemSettingIcon></KlSystemSettingIcon>
+    <KlSystemStartIcon></KlSystemStartIcon>
+    <KlSystemSuccessIcon></KlSystemSuccessIcon>
+    <KlSystemUploadIcon></KlSystemUploadIcon>
+    <KlSystemWorkbenchIcon></KlSystemWorkbenchIcon>
+  </div>
+</template>
