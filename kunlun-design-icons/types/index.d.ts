@@ -187,9 +187,9 @@ export declare const KlTrafficSubway: KlIconCpnType
 export declare const KlTrafficTaxi: KlIconCpnType
 export declare const KlTrafficTrafficLight: KlIconCpnType
 export declare const KlTrafficTruck: KlIconCpnType
-export declare const KlWeatherClearOvercastDaytime: KlIconCpnType
-export declare const KlWeatherClearOvercastNightRain: KlIconCpnType
-export declare const KlWeatherClearOvercastNight: KlIconCpnType
+export declare const KlWeatherClearOcDt: KlIconCpnType
+export declare const KlWeatherClearOcNgRain: KlIconCpnType
+export declare const KlWeatherClearOcNg: KlIconCpnType
 export declare const KlWeatherDaytimeFill: KlIconCpnType
 export declare const KlWeatherDaytimeLine: KlIconCpnType
 export declare const KlWeatherFog: KlIconCpnType

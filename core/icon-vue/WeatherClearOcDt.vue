@@ -1,7 +1,7 @@
 <template>
   <BaseIcon
     svgType="weather"
-    svgName="clear-overcast-night-rain"
+    svgName="clear-oc-dt"
     :className="className"
     :color="color"
     :size="size"
@@ -13,10 +13,10 @@ import BaseIcon from "../BaseIcon.vue"
 export interface IPropsType {
   className?: string
   color?: string
-  size?: number
+  size?: number | string
 }
 defineProps<IPropsType>()
 defineOptions({
-  name: "KlWeatherClearOvercastNightRain"
+  name: "KlWeatherClearOcDt"
 })
 </script>

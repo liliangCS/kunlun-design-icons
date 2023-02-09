@@ -1,6 +1,6 @@
 {
   "name": "@kl-design/icons",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "",
   "main": "./lib/kl-icon.mjs",
   "files": [

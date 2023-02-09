@@ -73,7 +73,7 @@ import BaseIcon from '../BaseIcon.vue'
 export interface IPropsType {
     className?: string
     color?: string
-    size?: number
+    size?: number | string
 }
 defineProps<IPropsType>()
 defineOptions({

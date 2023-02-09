@@ -1,5 +1,9 @@
 <template>
-  <svg :class="svgClass" aria-hidden="true" :style="{ color: color, width: size, height: size }">
+  <svg
+    :class="svgClass"
+    aria-hidden="true"
+    :style="{ color: color, width: size + 'px', height: size + 'px' }"
+  >
     <use :xlink:href="symbolId" />
   </svg>
 </template>
@@ -11,7 +15,7 @@ export interface IPropsType {
   svgType: string
   className?: string
   color?: string
-  size?: number
+  size?: number | string
 }
 const props = defineProps<IPropsType>()
 const svgClass = computed(() => {

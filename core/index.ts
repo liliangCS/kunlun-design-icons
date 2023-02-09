@@ -188,9 +188,9 @@ import TrafficSubway from "./icon-vue/TrafficSubway.vue"
 import TrafficTaxi from "./icon-vue/TrafficTaxi.vue"
 import TrafficTrafficLight from "./icon-vue/TrafficTrafficLight.vue"
 import TrafficTruck from "./icon-vue/TrafficTruck.vue"
-import WeatherClearOvercastDaytime from "./icon-vue/WeatherClearOvercastDaytime.vue"
-import WeatherClearOvercastNightRain from "./icon-vue/WeatherClearOvercastNightRain.vue"
-import WeatherClearOvercastNight from "./icon-vue/WeatherClearOvercastNight.vue"
+import WeatherClearOcDt from "./icon-vue/WeatherClearOcDt.vue"
+import WeatherClearOcNgRain from "./icon-vue/WeatherClearOcNgRain.vue"
+import WeatherClearOcNg from "./icon-vue/WeatherClearOcNg.vue"
 import WeatherDaytimeFill from "./icon-vue/WeatherDaytimeFill.vue"
 import WeatherDaytimeLine from "./icon-vue/WeatherDaytimeLine.vue"
 import WeatherFog from "./icon-vue/WeatherFog.vue"
@@ -393,9 +393,9 @@ export const KlTrafficSubway = installer(TrafficSubway)
 export const KlTrafficTaxi = installer(TrafficTaxi)
 export const KlTrafficTrafficLight = installer(TrafficTrafficLight)
 export const KlTrafficTruck = installer(TrafficTruck)
-export const KlWeatherClearOvercastDaytime = installer(WeatherClearOvercastDaytime)
-export const KlWeatherClearOvercastNightRain = installer(WeatherClearOvercastNightRain)
-export const KlWeatherClearOvercastNight = installer(WeatherClearOvercastNight)
+export const KlWeatherClearOcDt = installer(WeatherClearOcDt)
+export const KlWeatherClearOcNgRain = installer(WeatherClearOcNgRain)
+export const KlWeatherClearOcNg = installer(WeatherClearOcNg)
 export const KlWeatherDaytimeFill = installer(WeatherDaytimeFill)
 export const KlWeatherDaytimeLine = installer(WeatherDaytimeLine)
 export const KlWeatherFog = installer(WeatherFog)
