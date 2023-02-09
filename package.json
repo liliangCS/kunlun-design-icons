@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "scripts": {
-    "compile": "pnpm --filter core compile && prettier --write kunlun-design-icons/types/index.d.ts",
+    "compile": "pnpm --filter core compile && prettier --write kunlun-design-icons/types/index.d.ts kunlun-design-icons/icons.json",
     "build": "vite build",
     "cb": "pnpm compile && pnpm build",
     "demo:dev": "pnpm --filter demo dev",

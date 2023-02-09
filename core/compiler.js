@@ -88,10 +88,12 @@ const createCpn = () => {
   let importStr = ""
   let exportStr = ""
   let declareStr = ""
+  const icons = []
   try {
     cpns.forEach((cpn) => {
       const { svgType, svgName, cpnName } = cpn
       console.log(`Kl${cpnName}`)
+      icons.push(`Kl${cpnName}`)
       const template = createCpnTemplate(svgType, svgName, cpnName)
       writeFileSync(path.resolve(__dirname, `./icon-vue/${cpnName}.vue`), template)
       importStr += createImportTemplate(cpnName)
@@ -115,6 +117,10 @@ const createCpn = () => {
     writeFileSync(path.resolve(__dirname, "../kunlun-design-icons/types/index.d.ts"), declareStr, {
       flag: "a+"
     })
+    writeFileSync(
+      path.resolve(__dirname, "../kunlun-design-icons/icons.json"),
+      JSON.stringify(icons)
+    )
     console.log("构建成功")
   } catch (error) {
     console.log("构建失败", error.message)
