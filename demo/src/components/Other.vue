@@ -12,5 +12,7 @@
     <KlOtherMessageLine></KlOtherMessageLine>
     <KlOtherWarningFill></KlOtherWarningFill>
     <KlOtherWarningLine></KlOtherWarningLine>
+    <KlOtherLoading></KlOtherLoading>
+    <KlOtherLink></KlOtherLink>
   </div>
 </template>

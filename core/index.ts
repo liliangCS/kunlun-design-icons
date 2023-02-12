@@ -127,6 +127,8 @@ import OtherCorrectCircleLine from "./icon-vue/OtherCorrectCircleLine.vue"
 import OtherCorrect from "./icon-vue/OtherCorrect.vue"
 import OtherErrorCircle from "./icon-vue/OtherErrorCircle.vue"
 import OtherError from "./icon-vue/OtherError.vue"
+import OtherLink from "./icon-vue/OtherLink.vue"
+import OtherLoading from "./icon-vue/OtherLoading.vue"
 import OtherMessageFill from "./icon-vue/OtherMessageFill.vue"
 import OtherMessageLine from "./icon-vue/OtherMessageLine.vue"
 import OtherWarningFill from "./icon-vue/OtherWarningFill.vue"
@@ -332,6 +334,8 @@ export const KlOtherCorrectCircleLine = installer(OtherCorrectCircleLine)
 export const KlOtherCorrect = installer(OtherCorrect)
 export const KlOtherErrorCircle = installer(OtherErrorCircle)
 export const KlOtherError = installer(OtherError)
+export const KlOtherLink = installer(OtherLink)
+export const KlOtherLoading = installer(OtherLoading)
 export const KlOtherMessageFill = installer(OtherMessageFill)
 export const KlOtherMessageLine = installer(OtherMessageLine)
 export const KlOtherWarningFill = installer(OtherWarningFill)
