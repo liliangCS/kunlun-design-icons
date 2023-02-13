@@ -130,6 +130,7 @@ export declare const KlOtherLink: KlIconCpnType
 export declare const KlOtherLoading: KlIconCpnType
 export declare const KlOtherMessageFill: KlIconCpnType
 export declare const KlOtherMessageLine: KlIconCpnType
+export declare const KlOtherUploadFill: KlIconCpnType
 export declare const KlOtherWarningFill: KlIconCpnType
 export declare const KlOtherWarningLine: KlIconCpnType
 export declare const KlSportBadminton: KlIconCpnType

@@ -131,6 +131,7 @@ import OtherLink from "./icon-vue/OtherLink.vue"
 import OtherLoading from "./icon-vue/OtherLoading.vue"
 import OtherMessageFill from "./icon-vue/OtherMessageFill.vue"
 import OtherMessageLine from "./icon-vue/OtherMessageLine.vue"
+import OtherUploadFill from "./icon-vue/OtherUploadFill.vue"
 import OtherWarningFill from "./icon-vue/OtherWarningFill.vue"
 import OtherWarningLine from "./icon-vue/OtherWarningLine.vue"
 import SportBadminton from "./icon-vue/SportBadminton.vue"
@@ -338,6 +339,7 @@ export const KlOtherLink = installer(OtherLink)
 export const KlOtherLoading = installer(OtherLoading)
 export const KlOtherMessageFill = installer(OtherMessageFill)
 export const KlOtherMessageLine = installer(OtherMessageLine)
+export const KlOtherUploadFill = installer(OtherUploadFill)
 export const KlOtherWarningFill = installer(OtherWarningFill)
 export const KlOtherWarningLine = installer(OtherWarningLine)
 export const KlSportBadminton = installer(SportBadminton)
