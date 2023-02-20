@@ -127,6 +127,10 @@ import OtherCorrectCircleLine from "./icon-vue/OtherCorrectCircleLine.vue"
 import OtherCorrect from "./icon-vue/OtherCorrect.vue"
 import OtherErrorCircle from "./icon-vue/OtherErrorCircle.vue"
 import OtherError from "./icon-vue/OtherError.vue"
+import OtherEyeCloseFill from "./icon-vue/OtherEyeCloseFill.vue"
+import OtherEyeCloseLine from "./icon-vue/OtherEyeCloseLine.vue"
+import OtherEyeOpenFill from "./icon-vue/OtherEyeOpenFill.vue"
+import OtherEyeOpenLine from "./icon-vue/OtherEyeOpenLine.vue"
 import OtherLink from "./icon-vue/OtherLink.vue"
 import OtherLoading from "./icon-vue/OtherLoading.vue"
 import OtherMessageFill from "./icon-vue/OtherMessageFill.vue"
@@ -335,6 +339,10 @@ export const KlOtherCorrectCircleLine = installer(OtherCorrectCircleLine)
 export const KlOtherCorrect = installer(OtherCorrect)
 export const KlOtherErrorCircle = installer(OtherErrorCircle)
 export const KlOtherError = installer(OtherError)
+export const KlOtherEyeCloseFill = installer(OtherEyeCloseFill)
+export const KlOtherEyeCloseLine = installer(OtherEyeCloseLine)
+export const KlOtherEyeOpenFill = installer(OtherEyeOpenFill)
+export const KlOtherEyeOpenLine = installer(OtherEyeOpenLine)
 export const KlOtherLink = installer(OtherLink)
 export const KlOtherLoading = installer(OtherLoading)
 export const KlOtherMessageFill = installer(OtherMessageFill)

@@ -126,6 +126,10 @@ export declare const KlOtherCorrectCircleLine: KlIconCpnType
 export declare const KlOtherCorrect: KlIconCpnType
 export declare const KlOtherErrorCircle: KlIconCpnType
 export declare const KlOtherError: KlIconCpnType
+export declare const KlOtherEyeCloseFill: KlIconCpnType
+export declare const KlOtherEyeCloseLine: KlIconCpnType
+export declare const KlOtherEyeOpenFill: KlIconCpnType
+export declare const KlOtherEyeOpenLine: KlIconCpnType
 export declare const KlOtherLink: KlIconCpnType
 export declare const KlOtherLoading: KlIconCpnType
 export declare const KlOtherMessageFill: KlIconCpnType
