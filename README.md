@@ -1,3 +1,5 @@
-# @kl-design/icons
+## kunlun-design-icons
 
-> kunlun-design 组件库下的一个 vue 图标库，你也可以单独使用
+一个基于Vue3 + ts的图标组件库
+
+## [使用方法](https://liliangcs.github.io/kld-docs/zh/document/basic/icon.html)
