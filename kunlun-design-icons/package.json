@@ -1,7 +1,7 @@
 {
   "name": "@kl-design/icons",
-  "version": "1.0.13",
-  "description": "",
+  "version": "1.0.14",
+  "description": "一个基于vue3 + ts的图标组件库",
   "main": "./lib/kl-icon.mjs",
   "files": [
     "lib",
@@ -25,7 +25,7 @@
   ],
   "author": "liliangCS",
   "license": "ISC",
-  "homepage": "https://anixuil.github.io/zh/",
+  "homepage": "https://liliangcs.github.io/kld-docs/zh/document/basic/icon.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/liliangCS/kunlun-design-icons"
